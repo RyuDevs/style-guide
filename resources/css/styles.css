@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    background-color: #ACC3A6;
+    font-family: 'Montserrat';
+}
+
+header{
+    display: flex;
+    background-color: rgb(44, 44, 84);
+    padding: 2em;
+    color: white;
+    box-shadow: 0 0 12px 4px #1C1C35;;
+    margin-bottom: 2em;
+}
+
+section {
+    width: 70%;
+    margin: 0 auto;
+    padding: 2em;    
+}
+
+section h1{ 
+    margin-bottom: 1em;
+}
+
+.navbar{
+    width: 70%;
+    text-align: right;
+}
+.navbar li{
+    list-style: none;
+    display: inline; 
+    font-size: 16px; 
+    padding: 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: #F49D6E;
+}
+
+.logo{
+    text-transform: uppercase;
+    font-size: 10px;
+    text-align: left;
+    border: 2px solid white;
+}
+
+.biorhyme {
+    font-family: 'Bio Rhyme', serif;
+
+}
+
+.fontshow {
+    font-size: 18px;
+}
+
+#fonts {
+    min-width: 460px;
+    max-width: 100%;
+}
+
+#fonts p{
+    font-size: 18px;
+}
+
+article{
+    display: inline-block;
+    margin-right: 4em;
+}
+
+.center {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.bold {
+ font-weight: bold;
+}
+
+.italic {
+ font-style: italic;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.color-box{
+    display: inline-block;
+    margin-right: 2em;
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+}
+
+.cbox-content {
+    padding: 25% 0;
+}
+
+.space-cadet{
+    background-color: #2C2C54;
+}
+
+.laurel-green {
+    background-color: #ACC3A6;
+}
+
+.peach-puff {
+    background-color: #F5D6BA;
+}
+
+.atomic-tangerine {
+    background-color: #F49D6E;
+}
+
+.amaranth-purple{
+    background-color: #A40E4C;
+}
+
+.content-wrapper {
+    background-color: whitesmoke;
+    height: 300px;
+    border: 1px solid slategray;
+}
