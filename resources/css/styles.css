@@ -4,7 +4,7 @@
 
 body{
     text-align: center;
-    background-color: #ACC3A6;
+    background-color: white;
     font-family: 'Montserrat';
     font-size: 17px;
 }
@@ -31,13 +31,17 @@ section h2{
     margin: 1em 0;
 }
 
+a {
+    font-family: 'Montserrat', sans-serif;
+}
+
 h1 {
     font-family: BioRhyme;
     font-weight: bolder;
     font-size: 35px;
     letter-spacing: .2em;
     text-transform: uppercase;
-    color:#A40E4C;
+    color:#2C2C54;
 }
 
 h2 {
@@ -46,7 +50,7 @@ h2 {
     font-size: 25px;
     letter-spacing: .1em;
     text-transform: uppercase;
-    color: #A40E4C;
+    color: #2C2C54;
 }
 
 .regular-showcase {
@@ -103,7 +107,8 @@ h2 {
     letter-spacing: 1px;
     padding: 10px;
     border: 3px dashed #A40E4C;
-    color: #2C2C54
+    color: #2C2C54;
+    text-transform: none;
 }
 
 #fonts p{
@@ -177,4 +182,36 @@ article{
 
 .text-content {
     padding: 3em;
+}
+
+.btn {
+    padding: 20px;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.primary {
+    background-color: #2C2C54;
+    color: #F49D6E;
+
+}
+.primary:hover{
+    background-color: #F49D6E;
+    color: #2C2C54;
+    box-shadow: 0 0 12px 4px slategrey;
+}
+
+.secondary {
+    background-color: #A40E4C;
+    color: #ACC3A6;
+}
+.secondary:hover{
+    background-color: #ACC3A6;
+    color: #A40E4C;
+    box-shadow: 0 0 12px 4px slategrey;
+}
+
+button {
+    margin: 10px;
 }
