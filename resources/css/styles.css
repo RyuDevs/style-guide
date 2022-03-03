@@ -6,6 +6,7 @@ body{
     text-align: center;
     background-color: #ACC3A6;
     font-family: 'Montserrat';
+    font-size: 17px;
 }
 
 header{
@@ -24,6 +25,37 @@ section {
 
 section h1{ 
     margin-bottom: 1em;
+}
+
+section h2{ 
+    margin: 1em 0;
+}
+
+h1 {
+    font-family: BioRhyme;
+    font-weight: bolder;
+    font-size: 35px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color:#A40E4C;
+}
+
+h2 {
+    font-family: BioRhyme;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #A40E4C;
+}
+
+.regular-showcase {
+    margin: 1em 0;
+}
+
+
+.left {
+    text-align: left;
 }
 
 .navbar{
@@ -57,6 +89,7 @@ section h1{
     border: 2px solid white;
     margin: auto 10px;
     letter-spacing: 2px;
+    color: white;
 }
 
 .biorhyme {
@@ -140,4 +173,8 @@ article{
     background-color: rgb(245, 245, 245, .9);
     border: 1px solid slategrey;
     box-shadow: 0 0 1em #2C2C54;
+}
+
+.text-content {
+    padding: 3em;
 }
