@@ -65,11 +65,17 @@ section h1{
 }
 
 .fontshow {
-    font-size: 18px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    padding: 10px;
+    border: 3px dashed #A40E4C;
+    color: #2C2C54
 }
 
 #fonts p{
     font-size: 18px;
+    margin: 8px;
 }
 
 article{
