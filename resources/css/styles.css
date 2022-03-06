@@ -215,3 +215,7 @@ article{
 button {
     margin: 10px;
 }
+
+.font-settings li {
+    margin-bottom: 4px;
+}
