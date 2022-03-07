@@ -219,3 +219,19 @@ button {
 .font-settings li {
     margin-bottom: 4px;
 }
+
+footer {
+    display: flex;
+    margin-top: 20px;
+    background-color: #2C2C54;
+    padding: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    filter: invert(84%) sepia(19%) saturate(282%) hue-rotate(62deg) brightness(88%) contrast(88%);
+}
